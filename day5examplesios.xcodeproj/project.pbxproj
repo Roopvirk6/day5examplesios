@@ -13,6 +13,8 @@
 		9BE8C6272416F6D100D0A237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8C6252416F6D100D0A237 /* Main.storyboard */; };
 		9BE8C6292416F6D300D0A237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8C6282416F6D300D0A237 /* Assets.xcassets */; };
 		9BE8C62C2416F6D300D0A237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8C62A2416F6D300D0A237 /* LaunchScreen.storyboard */; };
+		9BE8C6342416F6E100D0A237 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8C6332416F6E100D0A237 /* Person.swift */; };
+		9BE8C63C2416FBB700D0A237 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8C63B2416FBB700D0A237 /* CustomerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9BE8C6282416F6D300D0A237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE8C62B2416F6D300D0A237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE8C62D2416F6D300D0A237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE8C6332416F6E100D0A237 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BE8C63B2416FBB700D0A237 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9BE8C6282416F6D300D0A237 /* Assets.xcassets */,
 				9BE8C62A2416F6D300D0A237 /* LaunchScreen.storyboard */,
 				9BE8C62D2416F6D300D0A237 /* Info.plist */,
+				9BE8C6332416F6E100D0A237 /* Person.swift */,
+				9BE8C63B2416FBB700D0A237 /* CustomerTableViewCell.swift */,
 			);
 			path = day5examplesios;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE8C63C2416FBB700D0A237 /* CustomerTableViewCell.swift in Sources */,
 				9BE8C6242416F6D100D0A237 /* ViewController.swift in Sources */,
 				9BE8C6202416F6D100D0A237 /* AppDelegate.swift in Sources */,
+				9BE8C6342416F6E100D0A237 /* Person.swift in Sources */,
 				9BE8C6222416F6D100D0A237 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
