@@ -85,6 +85,26 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="138.61607142857142"/>
         </scene>
+        <!--Picker Table View Controller-->
+        <scene sceneID="gAN-GS-uVh">
+            <objects>
+                <viewController id="yZ7-za-hpl" customClass="pickerTableViewController" customModule="day5examplesios" customModuleProvider="target" sceneMemberID="viewController">
+                    <textField key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="textfield" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="z7n-ou-q5h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <navigationItem key="navigationItem" id="smk-kD-r2g"/>
+                    <connections>
+                        <outlet property="textField" destination="z7n-ou-q5h" id="17v-rh-vRb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuR-w4-X56" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2671.0144927536235" y="138.61607142857142"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="p2t-So-Wvp">
             <objects>
@@ -102,6 +122,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqB-LD-eB9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hDH-og-mqo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZEG-jo-8ei" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="blC-3K-dwp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yZ7-za-hpl" kind="relationship" relationship="rootViewController" id="3bi-O4-UqC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DzB-Zb-2es" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1760.8695652173915" y="138.61607142857142"/>
         </scene>
     </scenes>
     <resources>

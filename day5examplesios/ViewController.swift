@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tblview: UITableView!
     
+    
+   
+    
     lazy var personList = [Person]()
     let cellId = print(String(describing: CustomerTableViewCell.self))
 
@@ -21,6 +24,8 @@ class ViewController: UIViewController {
         getData()
         // Do any additional setup after loading the view.
     }
+    
+       
     private func getData()
     {
         personList.removeAll()
